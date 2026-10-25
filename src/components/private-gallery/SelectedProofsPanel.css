@@ -1,0 +1,21 @@
+.selected-proof-panel{margin-top:30px;background:#fff;border:1px solid var(--lunivo-border,#e5e7e6);border-radius:22px;padding:clamp(20px,3vw,30px);box-shadow:0 14px 35px rgba(17,45,47,.035)}
+.selected-proof-kicker{color:var(--lunivo-primary,#173c43);font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px}
+.selected-proof-panel h2{font-size:clamp(21px,2.4vw,27px);letter-spacing:-.6px;margin:7px 0 9px;color:var(--lunivo-ink,#243033)}
+.selected-proof-panel p{color:#718084;line-height:1.6;margin:0}
+.selected-proof-header{display:flex;justify-content:space-between;align-items:flex-start;gap:20px}
+.selected-list-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.selected-download-all{padding:12px 18px;border:0;border-radius:11px;background:var(--lunivo-primary,#173c43);color:white;font-weight:700;cursor:pointer;white-space:nowrap}
+.selected-download-all:hover{filter:brightness(1.1)}
+.selected-download-all:disabled,.selected-list-actions button:disabled{opacity:.45;cursor:not-allowed}
+.selected-summary-grid{margin:24px 0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.selected-summary-card{padding:18px;border:1px solid #ebeeeb;background:#faf9f6;border-radius:15px}
+.selected-summary-card span{font-size:12px;color:#718084;display:block}
+.selected-summary-card strong{font-size:23px;color:#253134;display:block;margin-top:8px;overflow-wrap:anywhere}
+.selected-list-tip{background:#f4f8f7;padding:14px;border-radius:12px;margin-bottom:14px!important;font-size:13px}
+.selected-file-list{padding:0;margin:14px 0 0;list-style:none;border:1px solid #e9eae5;border-radius:15px;overflow:hidden;counter-reset:selected}
+.selected-file-list li{counter-increment:selected;padding:13px 18px;display:flex;gap:15px;align-items:center;overflow-wrap:anywhere;font:600 14px/1.5 ui-monospace,SFMono-Regular,Consolas,monospace}
+.selected-file-list li:before{content:counter(selected,decimal-leading-zero);color:#b39a7c;font:700 12px/1.5 Inter,Arial,sans-serif}
+.selected-file-list li:nth-child(even){background:#faf9f6}
+.selected-proof-error{padding:12px;margin-top:14px!important;background:#fff3f2;color:#a3312b!important;border-radius:9px}
+@media(max-width:850px){.selected-summary-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.selected-proof-header{flex-direction:column}.selected-list-actions{width:100%}}
+@media(max-width:490px){.selected-list-actions{flex-direction:column;align-items:stretch}.selected-list-actions button{width:100%}.selected-summary-card{padding:13px}.selected-summary-card strong{font-size:20px}}

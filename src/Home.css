@@ -1,0 +1,48 @@
+/* Página inicial LUNIVO — não altera os estilos de login ou do painel. */
+.lunivo-home{min-height:100vh;background:#f7f5f0;color:#253134;font-family:"DM Sans",Arial,sans-serif;overflow:hidden}
+.lunivo-home *{box-sizing:border-box}
+.lunivo-home-header{width:min(1240px,calc(100% - 88px));margin:0 auto;min-height:112px;display:flex;justify-content:space-between;align-items:center;gap:24px;position:relative;z-index:3}
+.lunivo-home-logo{display:inline-flex;align-items:center;gap:13px;font:800 24px "Manrope",sans-serif;letter-spacing:3px;text-decoration:none;color:#173c43}
+.lunivo-home-monogram{width:45px;height:45px;border-radius:14px;background:#173c43;display:grid;place-items:center;color:#e4cda9;letter-spacing:0;font:800 23px "Manrope",sans-serif}
+.lunivo-home-nav{display:flex;align-items:center;gap:29px}.lunivo-home-nav a{text-decoration:none;font-size:13px;font-weight:800}
+.lunivo-home-nav-link{color:#173c43}.lunivo-home-nav-link:hover{text-decoration:underline}
+.lunivo-home-nav-cta{display:inline-flex;align-items:center;gap:15px;border-radius:12px;border:1px solid #cfdbd6;padding:13px 19px;color:#173c43;transition:background .18s,border-color .18s}
+.lunivo-home-nav-cta:hover{background:#e8ede9;border-color:#a9bfba}
+.lunivo-home-hero{width:min(1240px,calc(100% - 88px));margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,.91fr);align-items:center;gap:55px;min-height:610px;padding:25px 0 64px}
+.lunivo-home-copy{position:relative;z-index:2;padding:12px 0}
+.lunivo-home-eyebrow{display:flex;align-items:center;gap:13px;color:#9a7b53;font-weight:800;font-size:11px;letter-spacing:2.2px;margin:0 0 26px}
+.lunivo-home-eyebrow-line{width:35px;height:2px;background:#c5a47e;display:inline-block;flex:none}
+.lunivo-home-copy h1{font:800 clamp(44px,5.2vw,76px)/1.13 "Manrope",sans-serif;letter-spacing:-3.1px;color:#173c43;max-width:670px;margin:0}
+.lunivo-home-copy h1 em{font-style:normal;color:#b28d65}
+.lunivo-home-description{font-size:16px;line-height:1.9;max-width:520px;color:#647577;margin:27px 0 0}
+.lunivo-home-actions{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;align-items:center}
+.lunivo-home-actions a{text-decoration:none;min-height:53px;display:inline-flex;align-items:center;justify-content:center;gap:24px;padding:15px 24px;border-radius:12px;font-weight:800;font-size:13px;transition:transform .15s,background .15s}
+.lunivo-home-actions a:hover{transform:translateY(-2px)}
+.lunivo-home-button-primary{background:#173c43;color:#fff;box-shadow:0 12px 25px #173c4323}.lunivo-home-button-primary:hover{background:#26565c}
+.lunivo-home-button-secondary{border:1px solid #d9dcd5;color:#173c43;background:#fff9}
+.lunivo-home-reassurance{display:flex;align-items:center;gap:10px;color:#7c8a88;font-size:12px;margin-top:41px}.lunivo-home-reassurance-mark{font-size:19px;color:#b9956f}
+.lunivo-home-showcase{position:relative;min-height:535px;display:flex;align-items:center;justify-content:center;isolation:isolate}
+.lunivo-home-halo{position:absolute;width:min(100%,515px);aspect-ratio:1/1;border-radius:50%;background:radial-gradient(circle,#e4e9e2 4%,#e8ede8 53%,transparent 70%);z-index:-2;transform:translate(12px,18px)}
+.lunivo-home-frame{padding:11px;background:#fff;border-radius:16px;box-shadow:0 30px 65px #193a3524}
+.lunivo-home-frame-front{width:min(76%,370px);transform:rotate(-3deg) translate(-24px,10px);position:relative;z-index:2}
+.lunivo-home-frame-back{width:min(64%,310px);height:380px;position:absolute;right:5%;top:7%;transform:rotate(10deg);opacity:.95;z-index:1}
+.lunivo-home-photo{position:relative;overflow:hidden;border-radius:8px}
+.lunivo-home-photo-front{height:370px;background:linear-gradient(155deg,#b1c9c3 0%,#dee0c5 44%,#d9b999 74%,#7c9686 100%)}
+.lunivo-home-photo-back{height:100%;background:radial-gradient(circle at 30% 32%,#ddba8a 0 6%,transparent 7%),linear-gradient(145deg,#879d97,#c3cbb5 55%,#c9b39c)}
+.lunivo-home-art-sun{position:absolute;border-radius:50%;width:106px;height:106px;top:62px;right:58px;background:#f9ebcfaa;filter:blur(3px)}
+.lunivo-home-art-horizon{position:absolute;top:51%;width:100%;height:2px;background:#f5f2dc88}
+.lunivo-home-art-hill{position:absolute;bottom:-15%;width:140%;height:55%;border-radius:55% 55% 0 0}
+.lunivo-home-art-hill-a{background:#577e73;left:-45%;transform:rotate(12deg)}
+.lunivo-home-art-hill-b{background:#355f59;right:-65%;bottom:-27%;transform:rotate(-9deg)}
+.lunivo-home-frame-caption{padding:17px 6px 8px;display:flex;justify-content:space-between;align-items:center;gap:10px;font-size:10px;color:#89938d;letter-spacing:.7px}.lunivo-home-frame-caption span:first-child{font-weight:800;color:#4a6968}
+.lunivo-home-floating-note{position:absolute;z-index:4;bottom:12%;right:0;background:#fff;border:1px solid #eef0e9;border-radius:12px;box-shadow:0 18px 34px #18383212;display:flex;align-items:center;gap:12px;padding:15px 18px;font-size:12px;font-weight:800;color:#173c43;transform:rotate(3deg)}
+.lunivo-home-floating-icon{display:grid;place-items:center;background:#f5eee3;width:32px;height:32px;border-radius:9px;color:#ae8e65;font-size:22px}
+.lunivo-home-bottom{border-top:1px solid #e2e4dc;width:min(1240px,calc(100% - 88px));margin:0 auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px;padding:38px 0 34px}
+.lunivo-home-bottom>div{display:grid;grid-template-columns:33px 1fr;column-gap:13px;align-items:start;padding:0 14px 0 0}
+.lunivo-home-bottom-icon{grid-row:span 2;color:#b18d64;font:800 12px "Manrope",sans-serif;margin-top:2px}
+.lunivo-home-bottom strong{font:800 13px "Manrope",sans-serif;color:#284a4e}.lunivo-home-bottom p{font-size:12px;line-height:1.7;color:#80908c;margin:6px 0 0}
+.lunivo-home-footer{width:min(1240px,calc(100% - 88px));margin:0 auto;padding:24px 0 30px;border-top:1px solid #e2e4dc;color:#8c9690;display:flex;justify-content:space-between;gap:15px;font-size:11px}
+@media(max-width:1020px){.lunivo-home-hero{gap:20px}.lunivo-home-showcase{min-height:465px}.lunivo-home-frame-back{height:310px}.lunivo-home-photo-front{height:310px}.lunivo-home-copy h1{letter-spacing:-2px}.lunivo-home-floating-note{right:-5px}}
+@media(max-width:760px){.lunivo-home-header,.lunivo-home-hero,.lunivo-home-bottom,.lunivo-home-footer{width:min(100% - 40px,560px)}.lunivo-home-header{min-height:88px}.lunivo-home-logo{font-size:20px;letter-spacing:1.7px;gap:8px}.lunivo-home-monogram{height:38px;width:38px;font-size:20px}.lunivo-home-nav{gap:13px}.lunivo-home-nav a{font-size:12px}.lunivo-home-nav-cta{padding:11px 13px}.lunivo-home-hero{grid-template-columns:1fr;padding:40px 0 35px;min-height:0;gap:0}.lunivo-home-copy h1{font-size:clamp(39px,9vw,58px);letter-spacing:-1.9px}.lunivo-home-eyebrow{letter-spacing:1.3px;font-size:9px}.lunivo-home-description{font-size:14px;margin-top:21px}.lunivo-home-reassurance{margin-top:27px}.lunivo-home-showcase{min-height:400px;max-width:480px;width:100%;margin:20px auto 0}.lunivo-home-frame-front{width:67%}.lunivo-home-frame-back{width:58%;right:11%;height:285px;top:10%}.lunivo-home-photo-front{height:280px}.lunivo-home-floating-note{right:0;bottom:6%}.lunivo-home-bottom{grid-template-columns:1fr;gap:22px;padding:30px 0}.lunivo-home-footer{flex-wrap:wrap}}
+@media(max-width:420px){.lunivo-home-nav-link{display:none}.lunivo-home-hero{padding-top:27px}.lunivo-home-actions{align-items:stretch;flex-direction:column}.lunivo-home-actions a{width:100%}.lunivo-home-showcase{min-height:350px}.lunivo-home-photo-front{height:245px}.lunivo-home-frame-back{height:250px}.lunivo-home-floating-note{font-size:11px;padding:10px}.lunivo-home-frame-caption{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.lunivo-home-actions a,.lunivo-home-nav-cta{transition:none}}
